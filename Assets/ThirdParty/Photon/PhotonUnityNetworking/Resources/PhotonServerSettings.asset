@@ -59,6 +59,14 @@ MonoBehaviour:
   - UpdateMesh
   - TransferMaterialToAllWithTag
   - RequestMaterialTransfer
+  - RPC_TurnOff
+  - RPC_TurnOn
+  - SetActiveState
+  - Off
+  - On
+  - RPC_Accendi
+  - RPC_Spegni
+  - RPC_DisableAllChildren
   DisableAutoOpenWizard: 1
   ShowSettings: 1
   DevRegionSetOnce: 1

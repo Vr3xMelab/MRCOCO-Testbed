@@ -1,25 +1,28 @@
+using Photon.Pun;
 using UnityEngine;
 
-public class DisableChildren : MonoBehaviour
+public class DisableChildren : MonoBehaviourPun
 {
-    // Questo metodo disattiva tutti i figli del GameObject a cui è attaccato questo script
+    // Metodo per disabilitare tutti i figli e sincronizzarli
     public void DisableAllChildren()
     {
-        // Ottieni tutti i figli del GameObject
+        // Disabilita i figli localmente
         foreach (Transform child in transform)
         {
-            // Disattiva ogni figlio
             child.gameObject.SetActive(false);
         }
+
+        // Invoca il metodo remoto per sincronizzare con gli altri client
+        photonView.RPC("RPC_DisableAllChildren", RpcTarget.OthersBuffered);
     }
 
-    // Metodo di esempio per richiamare la disattivazione da un altro script o evento
-    void Update()
+    // Metodo remoto che sarà chiamato su tutti i client
+    [PunRPC]
+    void RPC_DisableAllChildren()
     {
-        // Per esempio, disattiva tutti i figli premendo il tasto 'D'
-        if (Input.GetKeyDown(KeyCode.D))
+        foreach (Transform child in transform)
         {
-            DisableAllChildren();
+            child.gameObject.SetActive(false);
         }
     }
 }
