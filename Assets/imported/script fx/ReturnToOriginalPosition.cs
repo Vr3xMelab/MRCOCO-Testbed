@@ -21,7 +21,7 @@ public class ReturnToOriginalPosition : MonoBehaviour
     void Update()
     {
         // Controlla se l'oggetto si sta muovendo
-        if (rb.velocity.magnitude > minVelocity)
+        if (rb.linearVelocity.magnitude > minVelocity)
         {
             // Se l'oggetto si sta muovendo, ferma il ritorno e reimposta il timer
             if (isReturning)
@@ -33,7 +33,7 @@ public class ReturnToOriginalPosition : MonoBehaviour
         }
         else
         {
-            // Se l'oggetto non si muove ed è fuori dalla posizione originale, incrementa il timer
+            // Se l'oggetto non si muove ed ï¿½ fuori dalla posizione originale, incrementa il timer
             if (transform.position != originalPosition && !isReturning)
             {
                 timer += Time.deltaTime;
