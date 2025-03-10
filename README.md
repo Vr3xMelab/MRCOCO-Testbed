@@ -1,5 +1,5 @@
 ## Unity-SharedSpatialAnchors
-# Neo Yacth configuration in Mixed Reality 
+# Boat configuration in Mixed Reality 
 
 ![Sample Banner](./Media/colocated-block-toss.gif 'Unity SSA Sample')
 
