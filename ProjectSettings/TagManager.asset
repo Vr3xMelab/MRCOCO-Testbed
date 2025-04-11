@@ -4,28 +4,6 @@
 TagManager:
   serializedVersion: 3
   tags:
-  - scafo
-  - tappezzeria
-  - porte
-  - tramezzi
-  - pavimento
-  - deck
-  - cucinatop
-  - mobili cucina
-  - tavolo
-  - sferassa
-  - vela1
-  - vela2
-  - timone
-  - passerella
-  - winches
-  - albero
-  - luci
-  - lavandino
-  - pensili
-  - sanitari
-  - tamponideck
-  - corepannel
   - QDSUIToggleButton
   - QDSUIIcon
   - QDSUITextSecondaryColor
@@ -47,6 +25,10 @@ TagManager:
   - SamplesInfoPanel
   - QDSUIToggleCheckboxRadio
   - QDSUISection
+  - externals
+  - cube sx
+  - cube dx
+  - sphereremoved
   layers:
   - Default
   - TransparentFX
