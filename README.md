@@ -7,11 +7,22 @@ The project was developed as part of a research prototype focused on collaborati
 
 ---
 
-Custom Component
+Principal Script for sharing material and status by PUN
 ----------------
 
- - Toggle.cs: Enables UI toggle on/off via index finger gestures.
+ - Toggle.cs: Toggle (on-off) setting of the game object.
  - DraggableSphere.cs: Allows drag & drop of color spheres via pinch gesture. Applies color in real-time to 3D model parts using collision triggers and Unity tags.
+
+Secondary Script for action and visualizzation
+----------------
+
+ - DisableAtStart.cs: use only to turn off the game object at start of the application
+ - OnOffGameObject.cs: Toggle (if on turn off / if off turn on) setting of the game object
+ - DisableChildren.cs: Turn off all children of one game object
+ - ReturnToOriginalPosition.cs: is graphic visualizzation to reset position of the sphere
+ - DisableObjectsByName.cs: Turn off the "GIZMO" >CachedSharedSpatialAnchorPrefab
+ - ActivateRenderOnActive.cs: Allows toggle only some game objects when other game objects are active (it is used for interior configuration, when it is on a specific UI turns off from a tag)
+ - ApplyMaterialByTag.cs: Is only to reset the color of TAG game object
 
 ---
 
@@ -19,7 +30,13 @@ Setup
 -----
 
 This project use Unity version 6000.0.37f1
- Create an account on Photon Engine "https://www.photonengine.com/" go to create new app ->  choose FUSION -> and give a name -> copy the APP ID and paste on unity
+
+Create an account on Photon Engine "https://www.photonengine.com/"
+
+ 1. go to create new app
+ 2. choose FUSION
+ 3. give a name
+ 4. copy the APP ID and paste on unity
 
 ----
 
