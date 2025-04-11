@@ -314,8 +314,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OriginalColoreSphere: {fileID: 0}
-  tagName: vela1
-  excludedTag: sferassa
+  tagName: externals
+  excludedTag: sphereremoved
   audioSource: {fileID: 271848962}
 --- !u!114 &5728954
 MonoBehaviour:
@@ -529,11 +529,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad343b465eb51c54599bff7fe13d1e89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rows: 0
-  columns: 4
-  cellSize: {x: 0.13, y: 0}
-  spacing: {x: 0, y: 0}
-  startOffset: {x: -0.18, y: 0}
 --- !u!1 &23639532
 GameObject:
   m_ObjectHideFlags: 0
@@ -7048,6 +7043,30 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: -0.49
       objectReference: {fileID: 0}
+    - target: {fileID: 5414912244164414807, guid: 60fa00281e83b294583adc31df520fbe, type: 3}
+      propertyPath: dynamicResolutionVersion
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5414912244164414807, guid: 60fa00281e83b294583adc31df520fbe, type: 3}
+      propertyPath: quest2MaxDynamicResolutionScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5414912244164414807, guid: 60fa00281e83b294583adc31df520fbe, type: 3}
+      propertyPath: quest2MinDynamicResolutionScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5414912244164414807, guid: 60fa00281e83b294583adc31df520fbe, type: 3}
+      propertyPath: quest3MaxDynamicResolutionScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5414912244164414807, guid: 60fa00281e83b294583adc31df520fbe, type: 3}
+      propertyPath: quest3MinDynamicResolutionScale
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5414912244164414807, guid: 60fa00281e83b294583adc31df520fbe, type: 3}
+      propertyPath: launchSimultaneousHandsControllersOnStartup
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5414912244174007119, guid: 60fa00281e83b294583adc31df520fbe, type: 3}
       propertyPath: m_ClearFlags
       value: 2
@@ -11406,8 +11425,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OriginalColoreSphere: {fileID: 1517306110}
-  tagName: vela1
-  excludedTag: sferassa
+  tagName: externals
+  excludedTag: sphereremoved
   audioSource: {fileID: 271848962}
 --- !u!114 &637755505
 MonoBehaviour:
@@ -12463,8 +12482,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OriginalColoreSphere: {fileID: 0}
-  tagName: vela1
-  excludedTag: sferassa
+  tagName: externals
+  excludedTag: sphereremoved
   audioSource: {fileID: 271848962}
 --- !u!114 &672357509
 MonoBehaviour:
@@ -12548,8 +12567,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GameDaToogle: {fileID: 83225608}
-  InteruttoreAcceso: {fileID: 646740356}
-  InteruttoreSpento: {fileID: 1937573954}
+  switchon: {fileID: 0}
+  switchoff: {fileID: 0}
 --- !u!1 &680474958
 GameObject:
   m_ObjectHideFlags: 0
@@ -14192,8 +14211,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OriginalColoreSphere: {fileID: 1326161465}
-  tagName: vela1
-  excludedTag: sferassa
+  tagName: externals
+  excludedTag: sphereremoved
   audioSource: {fileID: 271848962}
 --- !u!114 &749012313
 MonoBehaviour:
@@ -15307,10 +15326,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b66c6f549565bab4f9d5718054730896, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OriginalColoreSphere: {fileID: 0}
-  tagName: lavandino
-  excludedTag: sferassa
-  audioSource: {fileID: 0}
+  OriginalColoreSphere: {fileID: 23639532}
+  tagName: cube dx
+  excludedTag: sphereremoved
+  audioSource: {fileID: 271848962}
 --- !u!114 &827665722
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17657,8 +17676,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GameDaToogle: {fileID: 1473261979}
-  InteruttoreAcceso: {fileID: 1797275224}
-  InteruttoreSpento: {fileID: 0}
+  switchon: {fileID: 0}
+  switchoff: {fileID: 0}
 --- !u!1001 &931880462
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -19234,8 +19253,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   GameDaToogle: {fileID: 726875374}
-  InteruttoreAcceso: {fileID: 0}
-  InteruttoreSpento: {fileID: 0}
+  switchon: {fileID: 0}
+  switchoff: {fileID: 0}
 --- !u!1 &1058468736
 GameObject:
   m_ObjectHideFlags: 0
@@ -21785,10 +21804,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b66c6f549565bab4f9d5718054730896, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OriginalColoreSphere: {fileID: 0}
-  tagName: lavandino
-  excludedTag: sferassa
-  audioSource: {fileID: 0}
+  OriginalColoreSphere: {fileID: 29348461}
+  tagName: cube dx
+  excludedTag: sphereremoved
+  audioSource: {fileID: 271848962}
 --- !u!114 &1277462173
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28084,7 +28103,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OriginalColoreSphere: {fileID: 1991836041}
-  tagName: cucinatop
+  tagName: cube sx
   excludedTag: sphereremoved
   audioSource: {fileID: 271848962}
 --- !u!114 &1547954135
@@ -28756,10 +28775,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b66c6f549565bab4f9d5718054730896, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OriginalColoreSphere: {fileID: 0}
-  tagName: lavandino
-  excludedTag: sferassa
-  audioSource: {fileID: 0}
+  OriginalColoreSphere: {fileID: 894323234}
+  tagName: cube dx
+  excludedTag: sphereremoved
+  audioSource: {fileID: 271848962}
 --- !u!114 &1578534638
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -28992,7 +29011,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OriginalColoreSphere: {fileID: 1526125873}
-  tagName: cucinatop
+  tagName: cube sx
   excludedTag: sphereremoved
   audioSource: {fileID: 271848962}
 --- !u!114 &1583372522
@@ -29335,7 +29354,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OriginalColoreSphere: {fileID: 1906319892}
-  tagName: cucinatop
+  tagName: cube sx
   excludedTag: sphereremoved
   audioSource: {fileID: 271848962}
 --- !u!114 &1609162731
@@ -31812,10 +31831,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b66c6f549565bab4f9d5718054730896, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OriginalColoreSphere: {fileID: 0}
-  tagName: lavandino
-  excludedTag: sferassa
-  audioSource: {fileID: 0}
+  OriginalColoreSphere: {fileID: 1610613973}
+  tagName: cube dx
+  excludedTag: sphereremoved
+  audioSource: {fileID: 271848962}
 --- !u!114 &1797811886
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -32250,11 +32269,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad343b465eb51c54599bff7fe13d1e89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rows: 0
-  columns: 4
-  cellSize: {x: 0.13, y: 0}
-  spacing: {x: 0, y: 0}
-  startOffset: {x: -0.18, y: 0}
 --- !u!1001 &1811857357
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33298,7 +33312,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   OriginalColoreSphere: {fileID: 1476658481}
-  tagName: cucinatop
+  tagName: cube sx
   excludedTag: sphereremoved
   audioSource: {fileID: 271848962}
 --- !u!114 &1841268558
@@ -37426,6 +37440,95 @@ MonoBehaviour:
   _ghostProvider: {fileID: 0}
   _handGhostProvider: {fileID: 0}
   _ovrOffsetMode: 0
+--- !u!1 &2109154408
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2109154411}
+  - component: {fileID: 2109154410}
+  - component: {fileID: 2109154409}
+  m_Layer: 0
+  m_Name: simulator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2109154409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2109154408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9495137581af1694d945478768da8b08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  keyname: 2
+  keypressCustomEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 543581506}
+        m_TargetAssemblyTypeName: PhotonAnchorManager, Assembly-CSharp
+        m_MethodName: OnFindRoomButtonPressed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!114 &2109154410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2109154408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9495137581af1694d945478768da8b08, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  keyname: 1
+  keypressCustomEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 543581506}
+        m_TargetAssemblyTypeName: PhotonAnchorManager, Assembly-CSharp
+        m_MethodName: OnCreateRoomButtonPressed
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+--- !u!4 &2109154411
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2109154408}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.055999994, y: 0.072, z: 0.024399862}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2117638841
 GameObject:
   m_ObjectHideFlags: 0
@@ -37672,3 +37775,4 @@ SceneRoots:
   - {fileID: 1118598085}
   - {fileID: 1563714708}
   - {fileID: 330907125}
+  - {fileID: 2109154411}
