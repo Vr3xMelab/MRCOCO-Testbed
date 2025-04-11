@@ -313,7 +313,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b66c6f549565bab4f9d5718054730896, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OriginalColoreSphere: {fileID: 0}
+  OriginalColoreSphere: {fileID: 346454658}
   tagName: externals
   excludedTag: sphereremoved
   audioSource: {fileID: 271848962}
@@ -543,7 +543,7 @@ GameObject:
   - component: {fileID: 23639534}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: sferassa
+  m_TagString: sphereremoved
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -651,7 +651,7 @@ GameObject:
   - component: {fileID: 29348463}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: sferassa
+  m_TagString: sphereremoved
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1997,7 +1997,7 @@ Transform:
   m_GameObject: {fileID: 93375066}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -1.008, y: 0.2, z: 0.126}
+  m_LocalPosition: {x: -1.008, y: 0.87, z: 0.126}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -6022,7 +6022,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330907124}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: e6f44ea859cebb443a3d46d544589095, type: 3}
   m_Name: 
@@ -6041,7 +6041,7 @@ GameObject:
   - component: {fileID: 346454660}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: sferassa
+  m_TagString: sphereremoved
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6838,7 +6838,7 @@ GameObject:
   - component: {fileID: 394486801}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: sferassa
+  m_TagString: sphereremoved
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12481,7 +12481,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b66c6f549565bab4f9d5718054730896, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  OriginalColoreSphere: {fileID: 0}
+  OriginalColoreSphere: {fileID: 394486799}
   tagName: externals
   excludedTag: sphereremoved
   audioSource: {fileID: 271848962}
@@ -16259,7 +16259,7 @@ GameObject:
   - component: {fileID: 894323236}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: sferassa
+  m_TagString: sphereremoved
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -22803,7 +22803,7 @@ GameObject:
   - component: {fileID: 1326161467}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: sferassa
+  m_TagString: sphereremoved
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -24240,6 +24240,10 @@ PrefabInstance:
     - target: {fileID: 4447594653314810362, guid: bac340b17ae71864ab3a424b042a3ce7, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4611389672664762228, guid: bac340b17ae71864ab3a424b042a3ce7, type: 3}
+      propertyPath: m_TagString
+      value: sphereremoved
       objectReference: {fileID: 0}
     - target: {fileID: 5272691373783155106, guid: bac340b17ae71864ab3a424b042a3ce7, type: 3}
       propertyPath: m_AnchorMax.y
@@ -27630,7 +27634,7 @@ GameObject:
   - component: {fileID: 1517306112}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: sferassa
+  m_TagString: sphereremoved
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29408,7 +29412,7 @@ GameObject:
   - component: {fileID: 1610613975}
   m_Layer: 0
   m_Name: Sphere
-  m_TagString: sferassa
+  m_TagString: sphereremoved
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
