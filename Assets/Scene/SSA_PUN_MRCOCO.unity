@@ -19667,7 +19667,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1099112565}
   m_Layer: 0
-  m_Name: obj train
+  m_Name: MODEL HERE
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
