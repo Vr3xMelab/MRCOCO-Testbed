@@ -12,7 +12,7 @@ Originally developed as part of a research project at Politecnico di Bari, MR-Co
  - Customization via drag-and-drop materials on 3D models
  - Meta Quest 3 passthrough support using Unity's Spatial Anchors
 
-
+[![gif](fefd "gif")]("https://github.com/Vr3xMelab/MRCOCO-Testbed/blob/onoff/video.gif")
 
 ## Installation
 
